@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+  <title>Nacionalidade</title>        
+</head>            
+<body>
+  <b>País: <input type="pais" name="txtvel" id="txtvel"></b>
+  <input type="button" value="Verificar" onclick="mostrar()">
+  <div id="res">
+
+  </div>
+  <script>
+    function mostrar () {
+      var pais = ''
+      res.innerHTML = `<p>Vivendo em ${pais}<p>`
+      if (pais = 'Brasil') {
+        res.innerHTML += `<p>Você é brasileiro!<p>`
+      }
+      else (pais != 'Brasil') {
+        res.innerHTML += `<p>Você é estrangeiro!<p>`
+      }
+    }
+  </script>
+ <!-- <h1>Nacionalidade</h1>         
+<form action="" method="get">        
+  <label for="pais">País:</label>
+    <select name="pais" id="pais">
+      <option value=""></option>
+    </select>                   
+  </form> -->                                                                                                
+</body>             
+</html>
